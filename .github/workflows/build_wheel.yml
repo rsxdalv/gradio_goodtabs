@@ -25,8 +25,12 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Install Deps
-        run: python -m pip install .[dev]
+      - name: Install gradio
+        run: python -m pip install gradio==5.5.0
+
+      - name: gradio cc install
+        run: gradio cc install
+
       - name: Build the wheel
         run: gradio cc build
       - run: du -h dist/*
