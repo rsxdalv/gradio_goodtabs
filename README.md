@@ -1,13 +1,4 @@
----
-tags: [gradio-custom-component, Tabs]
-title: gradio_goodtabs
-short_description: 
-colorFrom: blue
-colorTo: yellow
-sdk: gradio
-pinned: false
-app_file: space.py
----
+Restoration of Gradio 4.x tab functionality for usage in [TTS WebUI](https://github.com/rsxdalv/tts-webui).
 
 # `gradio_goodtabs`
 <img alt="Static Badge" src="https://img.shields.io/badge/version%20-%200.0.3%20-%20orange">  
