@@ -17,7 +17,8 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@gradio/utils": "0.7.0"
+    "@gradio/utils": "0.7.0",
+    "@gradio/tabs": "0.4.4"
   },
   "devDependencies": {
     "@gradio/preview": "0.13.0"

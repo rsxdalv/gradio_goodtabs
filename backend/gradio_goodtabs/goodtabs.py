@@ -40,8 +40,8 @@ class GoodTabs(BlockContext, metaclass=ComponentMeta):
         )
         self.selected = selected
 
-
-class Tab(BlockContext, metaclass=ComponentMeta):
+@document()
+class GoodTab(BlockContext, metaclass=ComponentMeta):
     """
     Tab (or its alias TabItem) is a layout element. Components defined within the Tab will be visible when this tab is selected tab.
     Example:
@@ -96,4 +96,4 @@ class Tab(BlockContext, metaclass=ComponentMeta):
         return "tabitem"
 
 
-TabItem = Tab
+TabItem = GoodTab

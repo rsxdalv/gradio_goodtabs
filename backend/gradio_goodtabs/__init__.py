@@ -1,4 +1,4 @@
 
-from .goodtabs import GoodTabs
+from .goodtabs import GoodTabs, GoodTab
 
-__all__ = ['GoodTabs']
+__all__ = ['GoodTabs', 'GoodTab']
